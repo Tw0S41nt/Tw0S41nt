@@ -19,7 +19,7 @@
 | New-Item | touch      |Creates a new item in the folder you are in, this could be a file or folder.|
 | Move-Item | mv        |Moves the item that you specify from one location to another.|
 | Copy-Item | cp        |Copies the item that you specify from one location to another.|
-| Remove-Item | rm      |Removes whatever folder you specify.|
+| Remove-Item | rm      |Removes whatever file in a folder you specify.|
 | notepad.exe | vim     |Launches the notepad application.|
 
 ## Part 3 - Command Line Navigation
