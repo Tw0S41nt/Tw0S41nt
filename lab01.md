@@ -43,15 +43,15 @@ My Command Line Shell is: PowerShell
 1. mkdir DirA
 2. mkdir DirB
 3. Set-Location .\DirA\
-4. PS C:\Users\gerr9\DirA> Set-Location ..\DirB\ 
+4. PS C:\Users\User\DirA> Set-Location ..\DirB\ 
 5. Set-Location ~
-6. New-item -Path "C:\Users\gerr9\test.txt" -ItemType File
-7. Move-Item -Path "C:\Users\gerr9\test.txt" -Destination "C:\Users\gerr9\DirA\"
-8. Get-Content -Path "C:\Users\gerr9\DirA\test.txt"
-9. Copy-Item -Path "C:\Users\gerr9\DirA\test.txt" -Destination "C:\Users\gerr9\DirA\copy.txt"
-10. PS C:\Users\gerr9\DirA> Get-ChildItem
-11. PS C:\Users\gerr9\DirB> Copy-Item -Path "C:\Users\gerr9\DirA\test.txt" -Destination "C:\Users\gerr9\DirB\fodder.txt"
-12. PS C:\Users\gerr9\DirB> Remove-Item -Path "C:\Users\gerr9\DirB" -Recurse -Force
+6. New-item -Path "C:\Users\User\test.txt" -ItemType File
+7. Move-Item -Path "C:\Users\User\test.txt" -Destination "C:\Users\User\DirA\"
+8. Get-Content -Path "C:\Users\User\DirA\test.txt"
+9. Copy-Item -Path "C:\Users\User\DirA\test.txt" -Destination "C:\Users\User\DirA\copy.txt"
+10. PS C:\Users\User\DirA> Get-ChildItem
+11. PS C:\Users\User\DirB> Copy-Item -Path "C:\Users\User\DirA\test.txt" -Destination "C:\Users\User\DirB\fodder.txt"
+12. PS C:\Users\User\DirB> Remove-Item -Path "C:\Users\User\DirB" -Recurse -Force
 
 ```
 9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
